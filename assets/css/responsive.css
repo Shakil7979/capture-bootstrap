@@ -127,30 +127,49 @@
     height: auto;
   }
 
-.footer-social ul {
+  .footer-social ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
   }
- 
+
   .footer-social li.instagram {
-    order: -1; 
-    flex-basis: 100%; 
+    order: -1;
+    flex-basis: 100%;
     display: flex;
     justify-content: center;
   }
- 
+
   .footer-social li.tiktok,
   .footer-social li.linkedin {
     flex: 1 1 40%;
     display: flex;
     justify-content: center;
   }
-
+  .logo-main img {
+	width: 67px;
+}
 }
 
 @media all and (max-width: 575px) {
+  .side-bar h3 {
+    font-size: 12px;
+  }
+  .side-bar ul {
+    margin-left: 11px;
+  }
+  .side-bar {
+    padding: 5px;
+  } 
+  .menu-icon a {
+    width: 68px;
+    padding: 10px 0px;
+  }
+  .banner-slider-text h2 {
+    font-size: 31px;
+    line-height: 40px;
+  }
 }
 
 @media all and (max-width: 450px) {
