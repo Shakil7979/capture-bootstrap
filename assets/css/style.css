@@ -56,25 +56,8 @@ ul li a,a{
 	list-style: disc;
 	margin-left: 18px;
 }
-
-.btn-1 {  
-	background-color: #000;
-	color: #fff;
-	padding: 10px 20px;
-	font-size: 18px; 
-	border-radius: 40px;
-	text-align: center;
-	font-size: 40px;
-	font-family: "Montserrat", sans-serif;
-	border: 1px solid transparent;
-	transition: 0.3s;
-}
-
-.btn-1:hover {
-	background-color: transparent;
-	color: #000; 
-	border: 1px solid #000;
-}
+ 
+ 
 
 .btn-2 {  
 	background-color: transparent;
@@ -89,12 +72,11 @@ ul li a,a{
 	transition: 0.3s;
 }
 
-
-.btn-2:hover {
+.btn-2.active {
 	background-color: #000;
-	color: #fff; 
-	border: 1px solid transparent;
+	color: #fff;
 }
+ 
 
 .menu-icon a { 
 	width: 192px;
