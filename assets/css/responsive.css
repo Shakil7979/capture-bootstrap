@@ -40,6 +40,9 @@
   .explore-left h4 {
     font-size: 32px;
   }
+  .logo-main {
+    transform: translateX(-45px);
+  }
 }
 
 @media all and (max-width: 991px) {

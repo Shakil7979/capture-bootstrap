@@ -26,8 +26,12 @@ ul li a,a{
  
 
 .main-content {
-	flex: 0 0 74%;
-	width: 74%;
+	flex: 0 0 100%;
+	width: 100%;
+}
+
+.logo-main {
+	transform: translateX(-120px);
 }
 
 .side-bar {
